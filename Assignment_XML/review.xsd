@@ -1,0 +1,55 @@
+﻿<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:simpleType name="Shoes_id">
+<xs:restriction base="xs:string">
+<xs:pattern value="SH[0-9]{4}"></xs:pattern>
+</xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="review_id">
+<xs:restriction base="xs:string">
+<xs:pattern value="RV[0-9]{4}"></xs:pattern>
+</xs:restriction>
+</xs:simpleType> 
+
+<xs:simpleType name="star">
+<xs:restriction base="xs:integer">
+<xs:minInclusive value='0'/>
+<xs:maxInclusive value='5'/>
+</xs:restriction>
+</xs:simpleType> 
+
+
+<xs:element name ="Review">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="shoes_id" type="xs:string"/>
+<xs:element name="review_id" type="xs:string"/>
+<xs:element name="review_note" type="xs:string"/>
+<xs:element name="date" type="xs:date"/>
+<xs:element name="author">
+<complexType>
+<xs:simpleContent>
+<xs:extension base="xs:string">
+	<xs:attribute name="link" type="xs:string"/>
+</xs:extension>
+</xs:simpleContent>
+</complexType>
+</xs:element>
+<xs:element name="star" type="xs:star"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+
+
+<xs:element name="Reviews">
+<xs:complexType>
+<xs:sequence>
+<xs:element ref="Review" minOccurs="1" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+
+</xs:schema>
+

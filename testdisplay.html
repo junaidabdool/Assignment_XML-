@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<body  onload=loadXMLDoc()>
+
+    <h1>All shoes </h1>
+    <div id="demo"></div>
+
+<script>
+function loadXMLDoc()
+{
+if (window.XMLHttpRequest)
+  {
+ xhttp=new XMLHttpRequest();
+ }
+else // code for IE5 and IE6
+ {
+ xhttp=new ActiveXObject("Microsoft.XMLHTTP");
+ }
+ 
+
+xhttp.open("GET","shoes.xml",true);
+xhttp.send(null);
+
+ xhttp.onreadystatechange = function() {
+    if (xhttp.readyState == 4 && xhttp.status == 200) {
+       xmlDoc = xhttp.responseXML;
+x=xmlDoc.documentElement;
+ 
+	 table_str= "<table class='table table-dark'>";
+	
+     books_div = document.getElementById("demo");
+     //missing code to loop through all books and add values to the table
+	 books_node=xmlDoc.childNodes[0];
+	 y=xmlDoc.getElementsByTagName("Shoe");
+	len = y.length;
+
+         
+	 for (i=0; i<len ;i++)
+     {
+       table_str = table_str + "<tr><td width=200>";
+       table_str = table_str + y[i].getElementsByTagName("name")[0].firstChild.nodeValue +"</td><td width=200>";
+       table_str = table_str + y[i].getElementsByTagName("gender")[0].firstChild.nodeValue +"</td><td width=200>";
+       table_str = table_str + y[i].getElementsByTagName("type")[0].firstChild.nodeValue +"</td><td width=200>";
+       table_str = table_str + y[i].getElementsByTagName("price")[0].firstChild.nodeValue +"</td></tr>";
+     }
+     table_str = table_str + "</table>";
+     books_div.innerHTML = table_str;
+document.getElementById("demo").innerHTML=table_str;
+    }
+};
+}
+</script>
+
+</body>
+</html>

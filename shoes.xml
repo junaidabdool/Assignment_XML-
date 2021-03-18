@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="shoes.xsl"?>
+<Shoes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="shoes.xsd" >
+<Shoe>
+<shoe_id>SH1111</shoe_id>
+<name>WOMEN'S BOOTS SHOES MACA</name>
+<brand>Prada</brand>
+<color Number_of_Avaliable="3">Red</color>
+<color>Blue</color>
+<color>Yellow</color>
+<sizes>
+<Euro_Sizes>7.5</Euro_Sizes>
+</sizes>
+<type>Winter boots</type>
+<price>1218.00</price>
+<gender>Female</gender>
+<link>images\item-1.jpg</link>
+<country_of_origin>China</country_of_origin>
+<item_information>Comfortable boots for the winter season </item_information>
+</Shoe>
+<Shoe>
+<shoe_id>SH1112</shoe_id>
+<name>WOMEN'S MINAM MEAGHAN</name>
+<brand>Aldo</brand>
+<color Number_of_Avaliable="3">brown</color>
+<color>Blue</color>
+<color>black</color>
+<sizes>
+<Euro_Sizes>6</Euro_Sizes>
+<Euro_Sizes>7</Euro_Sizes>
+<Euro_Sizes>7.5</Euro_Sizes>
+<Euro_Sizes>8</Euro_Sizes>
+</sizes>
+<type>Office Shoe and Casual </type>
+<price>2500</price>
+<gender>Female</gender>
+<link>images\item-2.jpg</link>
+<country_of_origin>China</country_of_origin>
+<item_information>Elegant Shoe for Work and Everyday use </item_information>
+</Shoe>
+<Shoe>
+<shoe_id>SH1113</shoe_id>
+<name>CLASSIC MEN'S SNEAKERS</name>
+<brand>Aldo</brand>
+<color Number_of_Avaliable="3">Grey</color>
+<color>Blue</color>
+<color>Black</color>
+<sizes>
+<Euro_Sizes>7</Euro_Sizes>
+<Euro_Sizes>7.5</Euro_Sizes>
+<Euro_Sizes>8</Euro_Sizes>
+</sizes>
+<type> SNEAKERS</type>
+<price>1500</price>
+<gender>Male</gender>
+<link>images\item-3.jpg</link>
+<country_of_origin>China</country_of_origin>
+<item_information>  SNEAKERS for Work and Everyday use </item_information>
+</Shoe>
+<Shoe>
+<shoe_id>SH1113</shoe_id>
+<name>CLASSIC MEN'S SNEAKERS</name>
+<brand>Aldo</brand>
+<color Number_of_Avaliable="3">Grey</color>
+<color>Blue</color>
+<color>Black</color>
+<sizes>
+<Euro_Sizes>7</Euro_Sizes>
+<Euro_Sizes>7.5</Euro_Sizes>
+<Euro_Sizes>8</Euro_Sizes>
+</sizes>
+<type> SNEAKERS</type>
+<price>1500</price>
+<gender>Male</gender>
+<link>images\item-3.jpg</link>
+<country_of_origin>China</country_of_origin>
+<item_information>  SNEAKERS for Work and Everyday use </item_information>
+</Shoe>
+<Shoe>
+<shoe_id>SH1113</shoe_id>
+<name>CLASSIC MEN'S SNEAKERS</name>
+<brand>Aldo</brand>
+<color Number_of_Avaliable="3">Grey</color>
+<color>Blue</color>
+<color>Black</color>
+<sizes>
+<Euro_Sizes>7</Euro_Sizes>
+<Euro_Sizes>7.5</Euro_Sizes>
+<Euro_Sizes>8</Euro_Sizes>
+</sizes>
+<type> SNEAKERS</type>
+<price>1500</price>
+<gender>Male</gender>
+<link>images\item-3.jpg</link>
+<country_of_origin>China</country_of_origin>
+<item_information>  SNEAKERS for Work and Everyday use </item_information>
+</Shoe>
+<Shoe>
+<shoe_id>SH1114</shoe_id>
+<name>RUSS MEN'S SPORT SHOE</name>
+<brand>RUSS</brand>
+<color Number_of_Avaliable="1">Blue</color>
+<sizes>
+<Euro_Sizes>5</Euro_Sizes>
+<Euro_Sizes>6</Euro_Sizes>
+<Euro_Sizes>7</Euro_Sizes>
+<Euro_Sizes>7.5</Euro_Sizes>
+<Euro_Sizes>8</Euro_Sizes>
+</sizes>
+<type> Sport Shoe</type>
+<price>4500</price>
+<gender>Male</gender>
+<link>images\item-4.jpg</link>
+<country_of_origin>Vietnam</country_of_origin>
+<item_information>Sport Shoe made with materials which has the ability to resist force without breaking or permanently bending</item_information>
+</Shoe>
+<Shoe>
+<shoe_id>SH1115</shoe_id>
+<name>HIGH HEEL PUMPS</name>
+<brand>Aldo</brand>
+<color Number_of_Avaliable="1">Red</color>
+<sizes>
+<Euro_Sizes>6</Euro_Sizes>
+<Euro_Sizes>7</Euro_Sizes>
+<Euro_Sizes>7.5</Euro_Sizes>
+<Euro_Sizes>8</Euro_Sizes>
+</sizes>
+<type> HIGH HEEL SHOE</type>
+<price>2100</price>
+<gender>Female</gender>
+<link>images\item-5.jpg</link>
+<country_of_origin>China</country_of_origin>
+<item_information> Classic high heel shoes</item_information>
+</Shoe>
+<Shoe>
+<shoe_id>SH1116</shoe_id>
+<name>Running Shoe</name>
+<brand>EQ</brand>
+<color Number_of_Avaliable="1">Black and Green</color>
+<sizes>
+<Euro_Sizes>6</Euro_Sizes>
+<Euro_Sizes>7</Euro_Sizes>
+<Euro_Sizes>7.5</Euro_Sizes>
+<Euro_Sizes>8</Euro_Sizes>
+</sizes>
+<type> Running Shoe</type>
+<price>2500</price>
+<gender>Male</gender>
+<link>images\item-6.jpg</link>
+<country_of_origin>China</country_of_origin>
+<item_information> Running Shoe made with high quality materials</item_information>
+</Shoe>
+<Shoe>
+<shoe_id>SH1117</shoe_id>
+<name>MERRELL HIKKING Shoe</name>
+<brand>MERRELL</brand>
+<color Number_of_Avaliable="1">Black and Green</color>
+<sizes>
+<Euro_Sizes>6</Euro_Sizes>
+<Euro_Sizes>7</Euro_Sizes>
+<Euro_Sizes>7.5</Euro_Sizes>
+<Euro_Sizes>8</Euro_Sizes>
+</sizes>
+<type> HIKKING Shoe</type>
+<price>5800</price>
+<gender>Unisex</gender>
+<link>images\item-9.jpg</link>
+<country_of_origin>China</country_of_origin>
+<item_information> HIKKING Shoe made with high quality materials</item_information>
+</Shoe>
+<Shoe>
+<shoe_id>SH1118</shoe_id>
+<name>WOMEN'S PARTY SANDAL</name>
+<brand>Prada</brand>
+<color Number_of_Avaliable="1">Blue</color>
+<sizes>
+<Euro_Sizes>5</Euro_Sizes>
+<Euro_Sizes>6</Euro_Sizes>
+<Euro_Sizes>7</Euro_Sizes>
+<Euro_Sizes>7.5</Euro_Sizes>
+<Euro_Sizes>8</Euro_Sizes>
+</sizes>
+<type> Sandal</type>
+<price>1500</price>
+<gender>Female</gender>
+<link>images\item-10.jpg</link>
+<country_of_origin>China</country_of_origin>
+<item_information> Elegant Women sandal </item_information>
+</Shoe>
+<Shoe>
+<shoe_id>SH1119</shoe_id>
+<name>NIKE AIR JORDAN 1</name>
+<brand>NIKE</brand>
+<color Number_of_Avaliable="2">Red
+Yellow</color>
+<sizes>
+<Euro_Sizes>5</Euro_Sizes>
+<Euro_Sizes>6</Euro_Sizes>
+<Euro_Sizes>7</Euro_Sizes>
+<Euro_Sizes>7.5</Euro_Sizes>
+<Euro_Sizes>8</Euro_Sizes>
+</sizes>
+<type> SNEAKERS</type>
+<price>5200</price>
+<gender>Unisex</gender>
+<link>images\item-11.jpg</link>
+<country_of_origin>China</country_of_origin>
+<item_information> The Air Jordan 1 High debuted in 1985 as the first signature sneaker developed by Nike for Michael Jordan. The Peter Moore designed performance basketball sneaker featured a simple Nike Dunk inspired design that incorporated the Nike Swoosh and the Jordan Wings logo and featured Nike Air.</item_information>
+</Shoe>
+<Shoe>
+<shoe_id>SH1121</shoe_id>
+<name>NIKE AIR MAX 270-PASALEY PRO 2</name>
+<brand>NIKE</brand>
+<color Number_of_Avaliable="1">Red</color>
+<sizes>
+<Euro_Sizes>5</Euro_Sizes>
+<Euro_Sizes>6</Euro_Sizes>
+<Euro_Sizes>7</Euro_Sizes>
+<Euro_Sizes>7.5</Euro_Sizes>
+<Euro_Sizes>8</Euro_Sizes>
+</sizes>
+<type> SNEAKERS</type>
+<price>4850</price>
+<gender>Male</gender>
+<link>images\item-12.jpg</link>
+<country_of_origin>China</country_of_origin>
+<item_information> The Nike Air Max 270 combines the exaggerated tongue from the Air Max 180 and classic elements from the Air Max 93. It features Nike's biggest heel Air unit yet for a super-soft ride that feels as impossible as it looks.</item_information>
+</Shoe>
+<Shoe>
+<shoe_id>SH1122</shoe_id>
+<name>WOMEN'S NIKE FLYKNIT RACER</name>
+<brand>NIKE</brand>
+<color Number_of_Avaliable="1">PINK</color>
+<sizes>
+<Euro_Sizes>5</Euro_Sizes>
+<Euro_Sizes>6</Euro_Sizes>
+<Euro_Sizes>7</Euro_Sizes>
+<Euro_Sizes>7.5</Euro_Sizes>
+<Euro_Sizes>8</Euro_Sizes>
+</sizes>
+<type> SPORT SHOE</type>
+<price>5000</price>
+<gender>Unisex</gender>
+<link>images\item-14.jpg</link>
+<country_of_origin>China</country_of_origin>
+<item_information> Lightweight shoe that adapts to the foot's natural form, the Nike Flyknit Racer has an upper that seems to fit like a second skin. Its minimalist structure consists of a single layer of Flyknit fabric that wraps the feet and offers great breathability, which is useful on those hot days..</item_information>
+</Shoe>
+<Shoe>
+<shoe_id>SH1123</shoe_id>
+<name>NIKE AIR MORE</name>
+<brand>NIKE</brand>
+<color Number_of_Avaliable="1">BROWN</color>
+<sizes>
+<Euro_Sizes>5</Euro_Sizes>
+<Euro_Sizes>6</Euro_Sizes>
+<Euro_Sizes>7</Euro_Sizes>
+<Euro_Sizes>7.5</Euro_Sizes>
+<Euro_Sizes>8</Euro_Sizes>
+</sizes>
+<type> SPORT SHOE</type>
+<price>3500</price>
+<gender>Unisex</gender>
+<link>images\item-14.jpg</link>
+<country_of_origin>China</country_of_origin>
+<item_information> First dropped during the high-flying basketball days of the '90s, the Nike Air More Uptempo boasts legendary cushioning and a design that's unmistakable</item_information>
+</Shoe>
+<Shoe>
+<shoe_id>SH1124</shoe_id>
+<name>VANS CALIFORNIA OLD SKOOL REISSUE CA</name>
+<brand>VANS</brand>
+<color Number_of_Avaliable="1">GREEN</color>
+<sizes>
+<Euro_Sizes>5</Euro_Sizes>
+<Euro_Sizes>6</Euro_Sizes>
+<Euro_Sizes>7</Euro_Sizes>
+<Euro_Sizes>7.5</Euro_Sizes>
+<Euro_Sizes>8</Euro_Sizes>
+</sizes>
+<type> SNEAKERS</type>
+<price>3500</price>
+<gender>Unisex</gender>
+<link>images\item-16.jpg</link>
+<country_of_origin>China</country_of_origin>
+<item_information> One of the most popular models from the most popular skate shoes of all time, the Old Skool brought the iconic Vans side stripe into the world, a simple detail which has become deeply ingrained into skate culture. This new version from the California collection is constructed with suede uppers, floral print canvas panels and leather detailing.
+</item_information>
+</Shoe>
+</Shoes>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema"> 
+
+<xs:simpleType name="Shoes_id">
+<xs:restriction base="xs:string">
+<xs:pattern value="SH[0-9]{4}"></xs:pattern>
+</xs:restriction>
+</xs:simpleType>
+ 
+<xs:complexType name="size">
+<xs:choice>
+<xs:element name="US_Sizes" type="xs:decimal" minOccurs="1" maxOccurs="unbounded"></xs:element>
+<xs:element name="Euro_Sizes" type="xs:decimal" minOccurs="1" maxOccurs="unbounded"></xs:element>
+<xs:element name="Inches" type="xs:decimal" minOccurs="1" maxOccurs="unbounded"></xs:element>
+</xs:choice>
+</xs:complexType> 
+
+<xs:simpleType name="gender_type">
+  <xs:restriction base="xs:string">
+    <xs:enumeration value="Male"/>
+    <xs:enumeration value="Female"/>
+    <xs:enumeration value="Unisex"/>
+  </xs:restriction>
+</xs:simpleType>
+ 
+<xs:element name="Shoe">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="shoe_id" type="Shoes_id"></xs:element>
+<xs:element name="name" type="xs:string"></xs:element>
+<xs:element name="brand" type="xs:string"></xs:element>
+<xs:element name="color" minOccurs="1" maxOccurs="unbounded">
+<xs:complexType>
+<xs:simpleContent>
+<xs:extension base="xs:string">
+	<xs:attribute name="Number_of_Avaliable" type="xs:integer"/>
+</xs:extension>
+</xs:simpleContent>
+</xs:complexType>
+</xs:element> 
+<xs:element name="sizes" type="size" minOccurs="1" maxOccurs="unbounded"></xs:element>
+<xs:element name="type" type="xs:string"></xs:element>
+<xs:element name="price" type="xs:decimal"></xs:element>
+<xs:element name="gender" type="gender_type"></xs:element>
+ <xs:element name="link" type="xs:string"  minOccurs="0" maxOccurs="1"/>
+<xs:element name="country_of_origin" type="xs:string"></xs:element>
+<xs:element name="item_information" type="xs:string"></xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+
+<xs:element name="Shoes">
+<xs:complexType>
+<xs:sequence>
+<xs:element ref="Shoe" minOccurs="1" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+
+
+
+</xs:schema>

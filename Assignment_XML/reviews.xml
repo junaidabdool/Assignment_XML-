@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="review.xsl"?>
+<Reviews>
+<Review>
+<shoe_id>SH1111</shoe_id>
+<review_id>RV1111</review_id>
+<review_note>Very Confortabler shoes for all occasion</review_note>
+<date>2012-12-02</date>
+<author>Sabrina James</author>
+</Review>
+<Review>
+<shoe_id>SH1112</shoe_id>
+<review_id>RV1112</review_id>
+<review_note>Affordable shoes</review_note>
+<date>2012-11-03</date>
+<author>Cathrine Arthur</author>
+</Review>
+<Review>
+<shoe_id>SH1113</shoe_id>
+<review_id>RV1113</review_id>
+<review_note>Nice Classic Shoes</review_note>
+<date>2012-11-04</date>
+<author>Sam Arthur</author>
+</Review>
+<Review>
+<shoe_id>SH1114</shoe_id>
+<review_id>RV1114</review_id>
+<review_note>Affordable Sports Shoes</review_note>
+<date>2012-11-05</date>
+<author>Bruno Mark</author>
+</Review>
+<Review>
+<shoe_id>SH1115</shoe_id>
+<review_id>RV1115</review_id>
+<review_note>Nice Classic Shoes and robust</review_note>
+<date>2012-10-06</date>
+<author>Zaf James</author>
+</Review>
+<Review>
+<shoe_id>SH1116</shoe_id>
+<review_id>RV1116</review_id>
+<review_note>Nice sports shoes but expensive</review_note>
+<date>2012-10-06</date>
+<author>Ram Stones</author>
+</Review>
+<Review>
+<shoe_id>SH1117</shoe_id>
+<review_id>RV1117</review_id>
+<review_note>Beautiful and comfortable</review_note>
+<date>2012-10-06</date>
+<author>Cathrine Arthur</author>
+</Review>
+<Review>
+<shoe_id>SH1118</shoe_id>
+<review_id>RV1118</review_id>
+<review_note>Long lasting running shoes </review_note>
+<date>2012-11-07</date>
+<author>John Dwayne</author>
+</Review>
+<Review>
+<shoe_id>SH1119</shoe_id>
+<review_id>RV1119</review_id>
+<review_note>Ideal shoes for hiking </review_note>
+<date>2012-10-06</date>
+<author>Zaf James</author>
+</Review>
+<Review>
+<shoe_id>SH1120</shoe_id>
+<review_id>RV1120</review_id>
+<review_note>Very comfortable sandal</review_note>
+<date>2012-10-10</date>
+<author>Sabrina James</author>
+</Review>
+<Review>
+<shoe_id>SH1121</shoe_id>
+<review_id>RV1121</review_id>
+<review_note>Very comfortable shoes but expensive </review_note>
+<date>2012-09-07</date>
+<author>Ram Stones</author>
+</Review>
+<Review>
+<shoe_id>SH1122</shoe_id>
+<review_id>RV1122</review_id>
+<review_note>Very comfortable and robust shoes </review_note>
+<date>2012-03-12</date>
+<author>John Dwayne</author>
+</Review>
+<Review>
+<shoe_id>SH1123</shoe_id>
+<review_id>RV1123</review_id>
+<review_note>Very expensive shoes</review_note>
+<date>2012-03-12</date>
+<author>Sabrina James</author>
+</Review>
+<Review>
+<shoe_id>SH1124</shoe_id>
+<review_id>RV1124</review_id>
+<review_note>Top quality and affordable </review_note>
+<date>2012-03-10</date>
+<author>Cathrine Arthur</author>
+</Review>
+<Review>
+<shoe_id>SH1125</shoe_id>
+<review_id>RV1125</review_id>
+<review_note>Comfortable casual shoes for all occasion</review_note>
+<date>2012-0312</date>
+<author>Sara James</author>
+</Review>
+</Reviews>
